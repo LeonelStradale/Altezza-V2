@@ -1,20 +1,22 @@
 ---
-import Background from "../components/Background.astro";
 import Footer from "../components/Footer.astro";
 import Header from "../components/Header.astro";
 import Banner from "../components/app/Banner.astro";
 import About from "../components/app/About.astro";
 import Layout from "../layouts/Layout.astro";
+import Problem from "../components/app/Problem.astro";
+import Solution from "../components/app/Solution.astro";
 
 ---
 
-<Layout title="Welcome to Astro.">
+<Layout title="Bienvenido, Altezza.">
   <main>
     <Header />
-    <Background />
         <!-- App -->
         <Banner />
         <About />
+        <Problem />
+        <Solution />
     <Footer />
   </main>
 </Layout>
