@@ -2,5 +2,8 @@
   "workbench.colorCustomizations": {},
   "[astro]": {
     "editor.defaultFormatter": "Jota0222.multi-formatter"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   }
 }
