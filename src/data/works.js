@@ -8,7 +8,7 @@ export const works = [
       "Sistema para el Control de Impresiones dentro de la escuela normal BENMAC.",
     url: "impresiones.benmac.edu.mx",
     author: "Edgar Leonel Acevedo Cuevas",
-    year: "2023",
+    year: 2023,
   },
   {
     id: "scag-utzac",
@@ -19,7 +19,7 @@ export const works = [
       "Sistema para el Control de Asistencia dentro del Gimnasio de la UTZAC.",
     url: "#",
     author: "Edgar Leonel Acevedo Cuevas",
-    year: "2023",
+    year: 2023,
   },
   {
     id: "e-commerce",
@@ -30,6 +30,6 @@ export const works = [
       "Tienda Online para productos en general profesional personalizable.",
     url: "#",
     author: "Edgar Leonel Acevedo Cuevas",
-    year: "2024",
+    year: 2024,
   },
 ];

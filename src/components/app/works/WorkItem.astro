@@ -22,12 +22,12 @@ const {
     <div
         class="max-w-sm min-h-[400px] bg-white border border-gray-200 rounded-lg shadow-2xl dark:bg-gray-800 dark:border-gray-700">
         <a href={`/${id}`}
-            class="hover:scale-105 inline-block transition-all duration-1000 hover:shadow-2xl">
-            <img 
+            class="hover:scale-110 inline-block transition-all duration-1000 hover:shadow-2xl">
+            <img
+                transition:name={`image-work-${id}`} 
                 src={image} 
                 alt={`Imagen del proyecto ${name}`}
                 class="aspect-[191/96] h-full w-full object-cover object-center rounded-lg"
-                style={`view-transition-name: work-${id};`}
                 />
         </a>
         <div class="p-5">
